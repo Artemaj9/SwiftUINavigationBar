@@ -11,6 +11,12 @@
 		AC7511E42A844F8C008EC31A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7511E32A844F8C008EC31A /* ContentView.swift */; };
 		AC7511E62A844F8D008EC31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7511E52A844F8D008EC31A /* Assets.xcassets */; };
 		AC7511E92A844F8D008EC31A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7511E82A844F8D008EC31A /* Preview Assets.xcassets */; };
+		AC75120B2A845190008EC31A /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75120A2A845190008EC31A /* AppNavBarView.swift */; };
+		AC75120D2A8453B4008EC31A /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75120C2A8453B4008EC31A /* CustomNavBarView.swift */; };
+		AC75120F2A8458AE008EC31A /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC75120E2A8458AE008EC31A /* CustomNavBarContainerView.swift */; };
+		AC7512112A845CC7008EC31A /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7512102A845CC7008EC31A /* CustomNavView.swift */; };
+		AC7512132A846065008EC31A /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7512122A846065008EC31A /* CustomNavLink.swift */; };
+		AC7512152A84686E008EC31A /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7512142A84686E008EC31A /* CustomNavBarPreferenceKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		AC7511E32A844F8C008EC31A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC7511E52A844F8D008EC31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7511E82A844F8D008EC31A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC75120A2A845190008EC31A /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		AC75120C2A8453B4008EC31A /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		AC75120E2A8458AE008EC31A /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		AC7512102A845CC7008EC31A /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		AC7512122A846065008EC31A /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		AC7512142A84686E008EC31A /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			children = (
 				AC7511E12A844F8C008EC31A /* ViewBuildersBootcampApp.swift */,
 				AC7511E32A844F8C008EC31A /* ContentView.swift */,
+				AC7512092A84516D008EC31A /* AwesomeNAvigationBar */,
 				AC7511E52A844F8D008EC31A /* Assets.xcassets */,
 				AC7511E72A844F8D008EC31A /* Preview Content */,
 			);
@@ -65,6 +78,19 @@
 				AC7511E82A844F8D008EC31A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC7512092A84516D008EC31A /* AwesomeNAvigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC75120A2A845190008EC31A /* AppNavBarView.swift */,
+				AC75120C2A8453B4008EC31A /* CustomNavBarView.swift */,
+				AC7512102A845CC7008EC31A /* CustomNavView.swift */,
+				AC75120E2A8458AE008EC31A /* CustomNavBarContainerView.swift */,
+				AC7512122A846065008EC31A /* CustomNavLink.swift */,
+				AC7512142A84686E008EC31A /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = AwesomeNAvigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7511E42A844F8C008EC31A /* ContentView.swift in Sources */,
+				AC75120F2A8458AE008EC31A /* CustomNavBarContainerView.swift in Sources */,
+				AC75120D2A8453B4008EC31A /* CustomNavBarView.swift in Sources */,
+				AC7512132A846065008EC31A /* CustomNavLink.swift in Sources */,
 				AC7511E22A844F8C008EC31A /* ViewBuildersBootcampApp.swift in Sources */,
+				AC75120B2A845190008EC31A /* AppNavBarView.swift in Sources */,
+				AC7512152A84686E008EC31A /* CustomNavBarPreferenceKeys.swift in Sources */,
+				AC7512112A845CC7008EC31A /* CustomNavView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
